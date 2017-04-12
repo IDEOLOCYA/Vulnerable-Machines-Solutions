@@ -6,7 +6,7 @@ Bu makinenin çözümü üç aşamada gerçekleşti.
 İlk adımda, hedef sisteme shell erişimi elde ettim.
 İkinci adımda, yetkili kullanıcı haklarına eriştim.
 Üçüncü adımda ise post exploitation işlemleri ile flag'i elde ettim.
-İlk adımı gerçekleştirebilmek için hedef sistemde açık olan portları ve servisleri nmap aracı ile analiz etmeye başladım.Yaptığım taramanın sonucu şöyle idi: 
+İlk adımı gerçekleştirebilmek için hedef sistemde açık olan portları ve servisleri nmap aracı ile analiz etmeye başladım. Yaptığım taramanın sonucu şöyle idi: 
 
 ![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Vulnerable-Machines-Solutions/blob/master/Quaoar%20Vulnerable%20Machines/Quaoar%20Pictures/2.png)
 
@@ -26,7 +26,7 @@ Nikto bana robots.txt dosyası bulmuştu, mutlu olup içinde hangi dizinlere han
 
 ![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Vulnerable-Machines-Solutions/blob/master/Quaoar%20Vulnerable%20Machines/Quaoar%20Pictures/6.png)
 
-Ardından acaba bu aşamayı nasıl geçebilirim diye düşündüm.Kali Linux'taki araçlardan daha önce gördüğüm veya bana 
+Ardından acaba bu aşamayı nasıl geçebilirim diye düşündüm. Kali Linux'taki araçlardan daha önce gördüğüm veya bana 
 yardımcı olabilecek bir tool var mı diye biraz araştırma yaptım. Karşıma WPScan çıktı. WPScan'ın nasıl kullanılacağını pek bilmesemde Youtube'da biraz araştırma ile işime yarayabilecek bir kaç komut buldum ve taradım bizim linki.
 
 ![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Vulnerable-Machines-Solutions/blob/master/Quaoar%20Vulnerable%20Machines/Quaoar%20Pictures/7.png)
